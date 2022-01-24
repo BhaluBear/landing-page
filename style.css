@@ -3,15 +3,22 @@ body {
     flex-direction: column;
     justify-content: space-between;
     min-height: 100vh;
+    margin: 0;
 }
 
 .header {
     background-color: #1F2937;
-    color: white;
+    color: #F9FAF8;
     display: flex;
     justify-content: space-between;
-    max-height: 50px;
-    flex: 1;
+    align-items: center;
+    height: 50px;
+    flex: 0 1 auto;
+    padding: 0 200px;
+}
+
+.logo {
+    font-size: 24px;
 }
 
 ul {
@@ -26,14 +33,49 @@ ul {
     background-color: #1F2937;
     color: white;
     display: flex;
+    flex: 1 1 0;
+    padding: 50px 200px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+img {
+    width: 100%;
+    max-width: 400px;
+    padding-left: 20px 0 20px 20px;
+}
+
+.title {
+    font-size: 48px;
+    margin: 10px 0;
+}
+
+.second-row {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
+    padding: 100px 200px;
 }
 
 .title-two {
     text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 30px;
 }
 
 .title-two-info {
     display: flex;
+    justify-content: center;
+}
+
+.small-fantasy {
+    object-fit: cover;
+    width:180px;
+    height:180px;
+    border-radius: 16px;
+    border: 2px solid #3882F6;
 }
 
 .third-row {
@@ -41,17 +83,56 @@ ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 100px;
+    padding: 100px 200px;
+    flex: 1 1 0;
 }
 
+.fourth-row {
+    padding: 50px;
+    margin: 50px;
+    display: flex;
+    flex: 1 1 0;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 8px;
+    padding: 50px 100px;
+    margin: 100px 200px;
+}
 .quote {
     font-size: 36px;
     font-style: italic;
     color:#1F2937;
 }
 
+.fourth-title {
+    font-size: 18px;
+    font-weight: 800;
+}
 .quote-author{
     text-align: right;
     font-size: 16px;
     font-weight: 800;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 50px;
+    flex: 1;
+}
+
+button {
+    background-color: #3882F6;
+    cursor: pointer;
+    border: 1px solid white;
+    background: #3882F6;
+    color: white;
+    padding: 6px 24px;
+    border-radius: 8px;
+    margin: 10px 0;
 }
