@@ -29,6 +29,7 @@ body {
 
 .logo {
     font-size: 24px;
+    font-weight: 800;
 }
 
 ul {
@@ -37,6 +38,11 @@ ul {
     margin: 0;
     display: flex;
     gap: 15px;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
 }
 
 .top-row {
@@ -59,6 +65,7 @@ img {
 .title {
     font-size: 48px;
     margin: 10px 0;
+    font-weight: 900;
 }
 
 .second-row {
@@ -119,6 +126,7 @@ img {
     font-size: 36px;
     font-style: italic;
     color:#1F2937;
+    text-align: left;
 }
 
 .fourth-title {
